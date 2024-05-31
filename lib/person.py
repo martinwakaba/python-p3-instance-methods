@@ -4,4 +4,13 @@ class Person:
     # Class body goes here
 
     #Instance method definition
-    pass
+    def talk(self):
+        print("Hello world!")
+
+    def walk(self):
+        print("The person is walking")
+
+Martin = Person()
+
+Martin.talk()
+Martin.walk()
